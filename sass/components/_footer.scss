@@ -17,6 +17,7 @@
 
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     gap: 165px;
+    justify-content: center;
   }
 }
 
@@ -32,12 +33,16 @@
 
 .footer__emblem {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  // margin-left: auto;
+  // margin-right: auto;
   width: 231px;
 
   @media screen and (max-width: 767px) {
     margin-bottom: 60px;
+  }
+
+  @include media(1200px) {
+    // text-align: left;
   }
 }
 
@@ -75,6 +80,10 @@
 .address__item {
   // display: block;
   text-align: center;
+
+  @include media(1200px) {
+    text-align: left;
+  }
 }
 
 .address__link {

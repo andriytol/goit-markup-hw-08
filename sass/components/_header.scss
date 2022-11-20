@@ -112,9 +112,13 @@
   }
 }
 
-.auth-nav__item:not(:last-child) {
-  margin-bottom: 10px;
+@media screen and (min-width: 767px) and (max-width: 1199px) {
+  .auth-nav__item:not(:last-child) {
+    margin-bottom: 10px;
+  }
 }
+
+
 
 .auth-nav__link {
   align-items: center;
@@ -194,9 +198,9 @@
   }
 }
 
-.mob-menu__list {
-  margin-bottom: 20px;
-}
+// .mob-menu__list {
+//   margin-bottom: 20px;
+// }
 
 .mob-menu__link {
   font-weight: 500;
@@ -213,6 +217,10 @@
 
 .mob-menu__item:not(:last-child) {
   margin-bottom: 32px;
+}
+
+.mob-connect {
+  margin-bottom: 64px;
 }
 
 .mob-connect__link {
@@ -232,7 +240,7 @@
     letter-spacing: 0.02em;
     text-decoration: none;
     color: #757575;
-    margin-bottom: 64px;
+    // margin-bottom: 64px;
     display: block;
   }
 }
