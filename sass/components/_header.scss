@@ -223,6 +223,10 @@
   margin-bottom: 64px;
 }
 
+.mob-connect__item {
+  margin-bottom: 32px;
+}
+
 .mob-connect__link {
   font-weight: 500;
   font-size: 34px;
@@ -230,7 +234,7 @@
   text-decoration: none;
   letter-spacing: 0.02em;
   color: #2196f3;
-  margin-bottom: 32px;
+  
   display: block;
 
   &--email {
